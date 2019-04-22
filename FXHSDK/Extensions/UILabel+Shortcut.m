@@ -7,6 +7,7 @@
 //
 
 #import "UILabel+Shortcut.h"
+#import "UIColor+Hex.h"
 
 @implementation UILabel (Shortcut)
 
