@@ -7,7 +7,7 @@
 //
 
 #import "UILabel+TextColor.h"
-
+#import "UIColor+Hex.h"
 @implementation UILabel (TextColor)
 
 - (void)changeTextColor:(UIColor *)color starpoint:(NSUInteger)star endwidth:(NSUInteger)width {

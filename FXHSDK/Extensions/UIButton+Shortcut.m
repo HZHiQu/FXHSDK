@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+Shortcut.h"
-
+#import "UIColor+Hex.h"
 @implementation UIButton (Shortcut)
 + (UIButton *)buttonWithTitle:(NSString *)title titleColor:(NSString *)titleColor font:(UIFont *)font {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -18,7 +18,7 @@
 }
 + (UIButton *)buttonWithImage:(NSString *)image {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setImage:IMAGE(image) forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
     return button;
 }
 @end
