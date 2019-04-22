@@ -229,48 +229,48 @@
 #pragma mark
 #pragma mark -- XIB
 
-- (void)setFx_radius:(CGFloat)fx_radius {
-    self.layer.cornerRadius = fx_radius;
+- (void)setYy_radius:(CGFloat)yy_radius {
+    self.layer.cornerRadius = yy_radius;
     self.layer.masksToBounds = YES;
 }
-- (CGFloat)fx_radius {
+- (CGFloat)yy_radius {
     return self.layer.cornerRadius;
 }
-- (void)setFx_borderWidth:(CGFloat)fx_borderWidth {
-    self.layer.borderWidth = fx_borderWidth;
+- (void)setYy_borderWidth:(CGFloat)yy_borderWidth {
+    self.layer.borderWidth = yy_borderWidth;
 }
-- (CGFloat)fx_borderWidth {
+- (CGFloat)yy_borderWidth {
     return self.layer.borderWidth;
 }
-- (void)setFx_borderColor:(UIColor *)fx_borderColor {
-    self.layer.borderColor = fx_borderColor.CGColor;
+- (void)setYy_borderColor:(UIColor *)yy_borderColor {
+    self.layer.borderColor = yy_borderColor.CGColor;
     self.layer.masksToBounds = YES;
 }
-- (UIColor *)fx_borderColor {
+- (UIColor *)yy_borderColor {
     return [UIColor colorWithCGColor:self.layer.borderColor];
 }
-- (void)setFx_shadowRadius:(CGFloat)fx_shadowRadius {
-    self.layer.shadowRadius = fx_shadowRadius;
+- (void)setYy_shadowRadius:(CGFloat)yy_shadowRadius {
+    self.layer.shadowRadius = yy_shadowRadius;
 }
-- (CGFloat)fx_shadowRadius {
+- (CGFloat)yy_shadowRadius {
     return self.layer.shadowRadius;
 }
-- (void)setFx_shadowColor:(UIColor *)fx_shadowColor {
-    self.layer.shadowColor = fx_shadowColor.CGColor;
+- (void)setYy_shadowColor:(UIColor *)yy_shadowColor {
+    self.layer.shadowColor = yy_shadowColor.CGColor;
 }
-- (UIColor *)fx_shadowColor {
+- (UIColor *)yy_shadowColor {
     return [UIColor colorWithCGColor:self.layer.shadowColor];
 }
-- (void)setFx_shadowOffset:(CGSize)fx_shadowOffset {
-    self.layer.shadowOffset = fx_shadowOffset;
+- (void)setYy_shadowOffset:(CGSize)yy_shadowOffset {
+    self.layer.shadowOffset = yy_shadowOffset;
 }
-- (CGSize)fx_shadowOffset {
+- (CGSize)yy_shadowOffset {
     return self.layer.shadowOffset;
 }
-- (void)setFx_shadowOpacity:(CGFloat)fx_shadowOpacity {
-    self.layer.shadowOpacity = fx_shadowOpacity;
+- (void)setYy_shadowOpacity:(CGFloat)yy_shadowOpacity {
+    self.layer.shadowOpacity = yy_shadowOpacity;
 }
-- (CGFloat)fx_shadowOpacity {
+- (CGFloat)yy_shadowOpacity {
     return self.layer.shadowOpacity;
 }
 

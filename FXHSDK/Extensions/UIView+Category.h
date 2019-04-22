@@ -130,14 +130,14 @@
 #pragma mark
 #pragma mark -- XIB
 
-@property(assign, nonatomic) IBInspectable CGFloat fx_radius;
-@property(assign, nonatomic) IBInspectable CGFloat fx_borderWidth;
-@property(strong, nonatomic) IBInspectable UIColor *fx_borderColor;
+@property(assign, nonatomic) IBInspectable CGFloat yy_radius;
+@property(assign, nonatomic) IBInspectable CGFloat yy_borderWidth;
+@property(strong, nonatomic) IBInspectable UIColor *yy_borderColor;
 
-@property(assign, nonatomic) IBInspectable CGFloat fx_shadowRadius;
-@property(strong, nonatomic) IBInspectable UIColor *fx_shadowColor;
-@property(assign, nonatomic) IBInspectable CGFloat fx_shadowOpacity;
-@property(assign, nonatomic) IBInspectable CGSize fx_shadowOffset;
+@property(assign, nonatomic) IBInspectable CGFloat yy_shadowRadius;
+@property(strong, nonatomic) IBInspectable UIColor *yy_shadowColor;
+@property(assign, nonatomic) IBInspectable CGFloat yy_shadowOpacity;
+@property(assign, nonatomic) IBInspectable CGSize yy_shadowOffset;
 
 @end
 

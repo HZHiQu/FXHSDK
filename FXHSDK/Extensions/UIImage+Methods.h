@@ -31,5 +31,5 @@
                                   tintMode:(CGBlendMode)tintBlendMode
                                 saturation:(CGFloat)saturation
                                  maskImage:(nullable UIImage *)maskImage;
-
++ (nullable UIImage *)imageWithColor:(UIColor *_Nullable)color rect:(CGRect)rect;
 @end

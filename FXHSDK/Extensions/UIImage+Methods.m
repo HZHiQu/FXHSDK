@@ -269,5 +269,14 @@ static void _hq_cleanupBuffer(void *userData, void *buf_data) {
     return outputImage;
 }
 
++ (UIImage *)imageWithColor:(UIColor *)color rect:(CGRect)rect {
+    UIGraphicsBeginImageContext(rect.size); //填充画笔
+    CGContextRef context = UIGraphicsGetCurrentContext(); //根据所传颜色绘制
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, rect); //联系显示区域
+    UIImage * image = UIGraphicsGetImageFromCurrentImageContext(); // 得到图片信息
+    UIGraphicsEndImageContext(); //消除画笔
+    return image;
+}
 
 @end
