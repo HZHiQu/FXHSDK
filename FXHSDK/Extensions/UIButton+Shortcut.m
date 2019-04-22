@@ -8,6 +8,7 @@
 
 #import "UIButton+Shortcut.h"
 #import "UIColor+Hex.h"
+
 @implementation UIButton (Shortcut)
 + (UIButton *)buttonWithTitle:(NSString *)title titleColor:(NSString *)titleColor font:(UIFont *)font {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
