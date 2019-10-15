@@ -60,6 +60,10 @@ static char limit;
 }
 
 - (void)placeholderColor:(UIColor *)color {
-    [self setValue:color forKeyPath:@"_placeholderLabel.textColor"];
-}
+    if ([[[UIDevice currentDevice]systemVersion] floatValue] >= 13.0) {
+        NSMutableAttributedString *arrStr = [[NSMutableAttributedString alloc]initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName:color}];
+        self.attributedPlaceholder = arrStr;
+    }else{
+        [self setValue:color forKeyPath:@"_placeholderLabel.textColor"];
+    }}
 @end

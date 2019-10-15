@@ -9,13 +9,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "FXHSDK"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "FXHSDK"
   s.description  = "FXHSDK是一个常用的工具类集合"
-  s.homepage     = "https://github.com/WangYang-iOS/FXHSDK"
+  s.homepage     = "https://github.com/HZHiQu/FXHSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = { "WangYang-iOS" => "583702176@qq.com" }
-  s.source       = { :git => "https://github.com/WangYang-iOS/FXHSDK.git", :tag => s.version }
+  s.author       = { "ShanRenChina" => "zhangweijzsz@163.com" }
+  s.source       = { :git => "https://github.com/HZHiQu/FXHSDK.git", :tag => s.version }
   #s.source_files = "FXHSDK/Extensions/**/*"
   s.requires_arc = true
   s.frameworks   = "UIKit"
